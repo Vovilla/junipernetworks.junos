@@ -136,6 +136,10 @@ plugin_routing:
       redirect: junipernetworks.junos.junos
     ping:
       redirect: junipernetworks.junos.junos
+    junos_pmtu:
+      redirect: junipernetworks.junos.junos
+    pmtu:
+      redirect: junipernetworks.junos.junos    
     junos_rpc:
       redirect: junipernetworks.junos.junos
     rpc:
@@ -238,6 +242,8 @@ plugin_routing:
       redirect: junipernetworks.junos.junos_package
     ping:
       redirect: junipernetworks.junos.junos_ping
+    pmtu:
+      redirect: junipernetworks.junos.junos_pmtu
     rpc:
       redirect: junipernetworks.junos.junos_rpc
     scp:

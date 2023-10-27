@@ -39,7 +39,7 @@ from ansible_collections.junipernetworks.junos.plugins.module_utils.network.juno
 
 display = Display()
 
-CLI_SUPPORTED_MODULES = ["junos_netconf", "junos_ping", "junos_command"]
+CLI_SUPPORTED_MODULES = ["junos_netconf", "junos_ping", "junos_pmtu", "junos_command"]
 
 
 class ActionModule(ActionNetworkModule):
